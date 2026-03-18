@@ -1,0 +1,7 @@
+{
+  "name": "ShareCost - Despesas Compartilhadas",
+  "description": "Uma plataforma completa para gerenciamento e divisão de despesas compartilhadas entre amigos, familiares ou colegas, com relatórios detalhados por categoria e participante.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

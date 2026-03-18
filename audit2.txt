@@ -1,0 +1,19 @@
+# npm audit report
+
+dompurify  <=3.2.3
+Severity: moderate
+DOMPurify allows Cross-site Scripting (XSS) - https://github.com/advisories/GHSA-vhxf-7vqr-mrjg
+DOMPurify contains a Cross-site Scripting vulnerability - https://github.com/advisories/GHSA-v2wj-7wpq-c8vv
+DOMPurify contains a Cross-site Scripting vulnerability - https://github.com/advisories/GHSA-v8jm-5vwx-cfxm
+fix available via `npm audit fix --force`
+Will install jspdf@4.2.0, which is a breaking change
+node_modules/dompurify
+  jspdf  <=4.1.0
+  Depends on vulnerable versions of dompurify
+  node_modules/jspdf
+
+
+2 vulnerabilities (1 moderate, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
